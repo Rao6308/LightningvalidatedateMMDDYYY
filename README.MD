@@ -1,0 +1,1 @@
+![screenshot](https://github.com/Rao6308/LightningvalidatedateMMDDYYY/blob/master/src/Validatedate.gif)
