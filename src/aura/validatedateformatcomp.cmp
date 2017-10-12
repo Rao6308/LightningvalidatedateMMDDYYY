@@ -1,0 +1,6 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction" access="global">
+    <ltng:require scripts="{!$Resource.momentjs}"
+                  afterScriptsLoaded="{!c.validatedate}" />
+    
+    <ui:inputDate aura:id="dateField" label="Birthday" value="2014-01-30" displayDatePicker="true" format="MM/dd/yyyy" change="{!c.validatedate}"/>
+</aura:component>
